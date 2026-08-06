@@ -1,9 +1,19 @@
 import React from 'react'
+import Banner from '../common/Banner'
 
 const Home = () => {
   return (
-    <div className='container  mx-auto h-screen'>
-        <h1 className=' text-center py-5'>Home Page</h1>
+    <div className='home-page h-screen w-full'>
+
+        <div className="content">
+
+          <div className="banner">
+
+            <Banner/>
+          </div>
+
+        </div>
+
     </div>
   )
 }
